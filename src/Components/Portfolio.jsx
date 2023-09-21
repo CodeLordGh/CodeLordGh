@@ -1,4 +1,4 @@
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import todo from '../assets/portfolio/todo.png'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
@@ -11,28 +11,30 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct,
+            src: todo,
+            demohref: "https://react-todo-list-two-xi.vercel.app/",
+            codefref: "https://github.com/CodeLordGh/reactTodoList",
         },
-        {
-            id: 2,
-            src: installNode,
-        },
-        {
-            id: 3,
-            src: navbar,
-        },
-        {
-            id: 4,
-            src: reactSmooth,
-        },
-        {
-            id: 5,
-            src: reactParallax,
-        },
-        {
-            id: 6,
-            src: reactWeather,
-        }
+        // {
+        //     id: 2,
+        //     src: installNode,
+        // },
+        // {
+        //     id: 3,
+        //     src: navbar,
+        // },
+        // {
+        //     id: 4,
+        //     src: reactSmooth,
+        // },
+        // {
+        //     id: 5,
+        //     src: reactParallax,
+        // },
+        // {
+        //     id: 6,
+        //     src: reactWeather,
+        // }
     ]
 
   return (
@@ -50,25 +52,22 @@ const Portfolio = () => {
         gap-8 px-12 sm:px-0'>
 
             {
-                portfolios.map(({id, src}) => {
+                portfolios.map(({id, src, codefref, demohref}) => {
                     return (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt="reactWeather" className='rounded-md
                                 duration-300 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
                                     <button className='w12 px-6 py-3 m-4 duration-200 
-                                    hover:scale-150'>Demo</button>
+                                    hover:scale-150'><a target='_blank' rel='noreferrer' href={demohref}>Demo</a></button>
                                     <button className='w12 px-6 py-3 m-4 duration-200 
-                                    hover:scale-150'>Code</button>
+                                    hover:scale-150'><a href={codefref} rel='noreferrer' target='_blank'>Code</a></button>
                                 </div>
                             </div>
                     )
                 })
             }
         </div>
-
-        
-            
       </div>
     </div>
   )
