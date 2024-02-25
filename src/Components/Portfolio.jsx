@@ -1,6 +1,6 @@
 import todo from "../assets/portfolio/todo.png";
 import reactwebsite from "../assets/portfolio/restaurantWeb.jpg";
-// import navbar from "../assets/portfolio/navbar.jpg";
+import expenseTracker from "../assets/portfolio/expenseTracker.jpg";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -19,11 +19,12 @@ const Portfolio = () => {
       demohref: "https://restaurantweb-five.vercel.app/",
       codefref: "https://github.com/CodeLordGh/restaurantWeb",
     },
-    // },
-    // {
-    //     id: 3,
-    //     src: navbar,
-    // },
+    {
+      id: 3,
+      src: expenseTracker,
+      demohref: "https://vue-expensestracker.vercel.app/",
+      codefref: "https://github.com/CodeLordGh/expense-tracker",
+    },
     // {
     //     id: 4,
     //     src: reactSmooth,
