@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=codelordgh&label=Profile%20views&color=0e75b6&style=flat" alt="codelordgh" /> </p>
 
-- 🔭 I’m currently working on **RealTime Tic-Tac-Toe app**
+- 🔭 I’m currently working on **Student Data Management App (SDMA)**
 
 - 🌱 I’m currently learning **gsap**
 
