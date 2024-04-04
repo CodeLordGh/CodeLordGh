@@ -1,7 +1,7 @@
-import todo from "../assets/portfolio/todo.png";
-import reactwebsite from "../assets/portfolio/restaurantWeb.jpg";
-import expenseTracker from "../assets/portfolio/expenseTracker.jpg";
-// import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import hotelwebsite from "../assets/portfolio/hotel.jpg";
+import foodui from "../assets/portfolio/food.jpg";
+import bookingUi from "../assets/portfolio/booking.jpg";
+// import reactBookingui from "../assets/portfolio/reactParallax.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -9,25 +9,27 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: todo,
-      demohref: "https://react-todo-list-two-xi.vercel.app/",
-      codefref: "https://github.com/CodeLordGh/reactTodoList",
+      src: hotelwebsite,
+      demohref: "https://rayal-park-livid.vercel.app/",
+      codefref: "https://github.com/CodeLordGh/RayalPark",
     },
     {
       id: 2,
-      src: reactwebsite,
-      demohref: "https://restaurantweb-five.vercel.app/",
-      codefref: "https://github.com/CodeLordGh/restaurantWeb",
+      src: foodui,
+      demohref: "https://shoppingsite-omega.vercel.app/",
+      codefref: "https://github.com/CodeLordGh/shoppingsite",
     },
     {
       id: 3,
-      src: expenseTracker,
-      demohref: "https://vue-expensestracker.vercel.app/",
+      src: bookingUi,
+      demohref: "https://react-booking-ui-mu.vercel.app/",
       codefref: "https://github.com/CodeLordGh/expense-tracker",
     },
     // {
-    //     id: 4,
-    //     src: reactSmooth,
+    //   id: 4,
+    //   src: reactBookingui,
+    //   demohref: "https://react-booking-ui-mu.vercel.app/",
+    //   codefref: "https://github.com/CodeLordGh/react-booking-ui",
     // },
     // {
     //     id: 5,
@@ -70,7 +72,7 @@ const Portfolio = () => {
                   src={src}
                   alt="reactWeather"
                   className="rounded-md
-                                duration-300 hover:scale-105"
+                                duration-300 hover:scale-105 h-80"
                 />
                 <div className="flex items-center justify-center">
                   <button
