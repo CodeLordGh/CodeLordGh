@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mawuena</h1>
-<h3 align="center">A passionate fullSatack developer from Greater Accra, Ghana</h3>
+<h3 align="center">A passionate fullStack developer from Greater Accra, Ghana</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=codelordgh&label=Profile%20views&color=0e75b6&style=flat" alt="codelordgh" /> </p>
 
