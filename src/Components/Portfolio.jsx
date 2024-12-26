@@ -1,9 +1,6 @@
 import hotelwebsite from "../assets/portfolio/hotel.jpg";
-import foodui from "../assets/portfolio/food.jpg";
-import bookingUi from "../assets/portfolio/booking.jpg";
-// import reactBookingui from "../assets/portfolio/reactParallax.jpg";
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import urlShortener from "../assets/portfolio/url.jpg";
+import neemaCollections from "../assets/portfolio/neemacollections.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,30 +12,16 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: foodui,
-      demohref: "https://shoppingsite-omega.vercel.app/",
-      codefref: "https://github.com/CodeLordGh/shoppingsite",
+      src: urlShortener,
+      demohref: "https://url-shortener-navy-seven.vercel.app/",
+      codefref: "https://github.com/CodeLordGh/url-shortener",
     },
     {
       id: 3,
-      src: bookingUi,
-      demohref: "https://react-booking-ui-mu.vercel.app/",
-      codefref: "https://github.com/CodeLordGh/expense-tracker",
+      src: neemaCollections,
+      demohref: "https://neemacollections.vercel.app/",
+      codefref: "https://github.com/CodeLordGh/neemacollections",
     },
-    // {
-    //   id: 4,
-    //   src: reactBookingui,
-    //   demohref: "https://react-booking-ui-mu.vercel.app/",
-    //   codefref: "https://github.com/CodeLordGh/react-booking-ui",
-    // },
-    // {
-    //     id: 5,
-    //     src: reactParallax,
-    // },
-    // {
-    //     id: 6,
-    //     src: reactWeather,
-    // }
   ];
 
   return (
