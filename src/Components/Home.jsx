@@ -40,7 +40,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col md:shadow-lg rounded-2xl md:shadow-gray-400">
+        <div className="hidden md:flex md:flex-col md:shadow-lg rounded-2xl md:shadow-gray-400">
           <img
             src={heroImage}
             alt="hero profile"
